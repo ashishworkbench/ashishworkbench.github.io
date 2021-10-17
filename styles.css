@@ -1,0 +1,308 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+	min-height: 100%;
+}	
+
+.main {
+	overflow: auto;
+	padding-bottom: 100px;
+}
+
+.intro {
+	text-align: left;
+	color: rgb(75, 78, 80);
+	font-family: sans-serif;
+	font-weight: bolder;
+}
+
+.intro h1 {
+	color: rgb(16, 131, 231);
+	
+	font-weight: bolder;
+	font-size: 32px;
+}
+
+.intro h3 {
+	color: rgb(75, 78, 80);
+	font-size: 18px;
+	font-weight: bold;
+	padding: 10px 0px;
+}
+
+.profilepicture {
+	border-radius: 50%;
+	width: 240px;
+	height: 240px;
+	box-shadow: 0 4px 6px 0 rgba(34, 60, 80, .16);
+	transition: all ease-in-out .2s;
+  }
+
+  .profilepicture:hover {
+	box-shadow: 0 8px 12px 0 rgb(52, 161, 245);
+  }
+
+.introgrid {
+	display: grid;
+	height: 300px;
+	grid-template-columns: 50% 50%;
+	background-color: rgb(255, 254, 254);
+	padding-left: 120px;
+	box-shadow: 0px 0px 8px #888888;
+}
+
+.pp {
+	text-align: center;
+}
+
+.aboutgrid{
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+
+.skillset, .experiance{
+	text-align: center;
+	text-decoration: none
+}
+
+.aboutlist {
+	list-style: none;
+	padding: 0;
+}
+
+.myproject {
+	text-align: center;
+}
+.projectgrid {
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+
+.projectimage {
+	justify-self: center;
+	padding: 4%;
+}
+
+@media (max-width: 650px) {
+	.projectsgrid {
+	  grid-template-columns: 100%;
+	}
+  }
+
+.linkscontact {
+	display: grid;
+	grid-template-columns: 50% 50%;
+  }
+  
+  .links {
+	justify-self: center;
+  }
+  
+  .linkslist {
+	list-style: none;
+	padding: 0;
+  }
+
+  @media (max-width: 650px) {
+	.linkscontact {
+	  grid-template-columns: 100%;
+	}
+  }
+  .fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-github:before {
+    content: "\f09b";
+}
+
+.fa-twitter:before {
+    content: "\f099";
+}
+
+.fa-linkedin:before {
+    content: "\f0e1";
+}
+
+.fa-facebook {
+    padding: 10px 13px;
+}
+.fa-facebook-f:before, .fa-facebook:before {
+    content: "\f09a";
+}
+
+.social-icon {
+    text-decoration: none;
+    color: white;
+    margin: 10px 20px;
+    padding: 15px;
+    border-radius: 100%;
+    background-color: rgb(58, 57, 57);
+    border: 0.4px solid rgb(114, 114, 114);
+}
+
+.social-icon:hover {
+    text-decoration: none;
+    background-color: #387799;
+    border: 0.4px solid grey;
+}
+
+#siteheader {
+	position: sticky;
+	top: 0px;
+}
+
+ .header {
+	width: auto;
+	height: 50px;
+	display: block;
+	background-color: #387799;
+	position: sticky;
+	top: 0px;
+}
+
+.innerheader {
+	width: 1000px;
+	height: 100%;
+	display: block;
+	margin: 0 auto;
+	background-color: #387799;
+}
+
+.logocontainer {
+	height: 100%;
+	display: table;
+	vertical-align: middle;
+	float: left;
+}
+
+.logoahref {
+	height: 100%;
+	display: table-cell;
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+
+.logocontainer h1{
+	color: white;
+	height: 100%;
+	display: table-cell;
+	vertical-align: middle;
+	font-family: 'Montserrate';
+	font-size: 30px;
+	font-weight: normal;
+	
+}
+
+.logocontainer h1 span{
+	font-weight: 800;
+	color: turquoise;
+}
+
+.navigation {
+	float: right;
+	height: 100%;
+	
+	
+}
+
+.navigation li {
+	height: 100%;
+	display: table;
+	float: left;	
+	padding: 0px 15px;
+	
+}
+
+.navigation li a{
+	height: 100%;
+	display: table-cell;
+	color: white;
+	vertical-align: middle;
+	font-family: 'Montserrate';
+	font-size: 18px;
+	text-decoration: none;
+	
+}
+
+.navigation li a:hover,
+.navigation li a:active {
+	color: turquoise;
+}
+
+
+.footer {
+	position: relative;
+	width: auto;
+	height: 200px;
+	margin-top: -100px;
+	display: block;
+	background-color: #5B5A59;
+	clear: both;
+}
+
+.imagesc {
+	text-align: center;
+}
+
+.headerimage {
+	width: 100%;
+	height: 9%;
+	display: block;
+	margin: 0 auto;
+	background-color: #5B5A59;
+}
+
+.aboutme {
+	height: 300px;
+	text-align: center;
+	padding-top: 30px;
+	color:  #538fee;
+	
+	font-weight: 800;
+	font-family: sans-serif;
+}
+
+.skillset {
+	padding-top: 30px;
+	color:  #538fee;
+	font-family: sans-serif;
+}
+
+.innerfooter {
+	width: 1000px;
+	height: 100%;
+	display: block;
+	margin: 0 auto;
+	background-color: #5B5A59;
+}
+
+.footergrid {
+	color: turquoise;
+	font-family: sans-serif;
+	font-weight: lighter;
+	padding-top: 30px;
+	text-align: center;
+}
+
+.aboutmedata {
+	text-align: left;
+}
+
+
+
